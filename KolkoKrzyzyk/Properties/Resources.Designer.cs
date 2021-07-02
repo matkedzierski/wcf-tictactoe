@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace KolkoKrzyzyk.Properties
+namespace TicTacToe.Properties
 {
     /// <summary>
     ///   Silnie typizowana klasa zasobów do wyszukiwania zlokalizowanych ciągów itd.

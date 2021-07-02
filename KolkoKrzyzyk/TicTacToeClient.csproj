@@ -70,6 +70,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\WCFGame\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -103,6 +108,16 @@
     <None Include="Connected Services\ServiceKolkoKrzyzyk\service1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\WCFGame\KolkoKrzyzyk.WCFGame.MoveResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\WCFGame\service.wsdl" />
+    <None Include="Connected Services\WCFGame\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WCFGame\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceKolkoKrzyzyk\" />
+    <WCFMetadataStorage Include="Connected Services\WCFGame\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceKolkoKrzyzyk\configuration91.svcinfo" />
@@ -125,6 +141,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceKolkoKrzyzyk\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFGame\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFGame\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WCFGame\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
